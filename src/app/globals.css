@@ -1,0 +1,296 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #000000;
+  --color-muted: #666666;
+  --color-muted-bg: #FDFBF7;
+  --color-border: #E5D5A4;
+  --color-border-dark: #1f2937;
+  --color-primary: #D4AF37;
+  --color-primary-hover: #B59329;
+  --color-secondary: #8C7323;
+  
+  --font-serif: "Syne", "Playfair Display", Georgia, serif;
+  --font-sans: "Outfit", "Inter", system-ui, sans-serif;
+}
+
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Base Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+/* Editorial Utilities */
+.arch-shape {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.arch-shape-inverted {
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
+.editorial-border {
+  border: 1px solid var(--color-foreground);
+}
+
+.editorial-shadow {
+  box-shadow: 6px 6px 0 0 var(--color-foreground);
+}
+
+.editorial-shadow-hover:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 0 var(--color-foreground);
+}
+
+/* Base Editorial Card */
+.editorial-card {
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Admin Dashboard Background */
+.bg-admin {
+  background-color: #fafafa;
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Labels */
+.label-caps {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  line-height: 1.0;
+}
+
+/* Editorial Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  background: var(--color-primary);
+  color: #ffffff;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+  border: 1px solid var(--color-primary);
+}
+.btn-primary:hover {
+  background: var(--color-background);
+  color: var(--color-primary);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  background: transparent;
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 0;
+  border: 1px solid var(--color-foreground);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+}
+.btn-secondary:hover {
+  background: var(--color-foreground);
+  color: var(--color-background);
+}
+.btn-secondary:active {
+  transform: scale(0.98);
+}
+
+/* Admin Buttons */
+.admin-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.admin-btn-primary {
+  background: #09090b;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.admin-btn-primary:hover {
+  background: #27272a;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Admin Layout */
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+
+.admin-header {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid #e4e4e7;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.admin-card {
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+.admin-card:hover {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.08);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.admin-table th {
+  text-align: left;
+  padding: 16px 24px;
+  border-bottom: 1px solid #e4e4e7;
+  color: #71717a;
+  font-weight: 600;
+  font-size: 13px;
+  background: #fafafa;
+}
+.admin-table td {
+  padding: 20px 24px;
+  border-bottom: 1px solid #f4f4f5;
+  vertical-align: middle;
+}
+.admin-table tr:hover td {
+  background: #fafafa;
+}
+.admin-table tr:last-child td {
+  border-bottom: none;
+}
+
+.admin-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.admin-badge-green {
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+}
+.admin-badge-red {
+  background: #fef2f2;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+}
+
+/* Page container */
+.page-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Inputs */
+input, textarea, select {
+  font-family: var(--font-sans);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-modern {
+  width: 100%;
+  border: 1px solid #e4e4e7;
+  border-radius: 16px;
+  padding: 16px 20px;
+  font-size: 15px;
+  background: #fafafa;
+  color: #09090b;
+}
+.input-modern:focus {
+  background: #ffffff;
+  border-color: #09090b;
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
+}
+
+/* Hide scrollbar for clean look */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Infinite Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+

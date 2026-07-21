@@ -1,0 +1,106 @@
+[
+  {
+    "id": "1777900645272",
+    "name": "Rayban Güneş Gözlüğü",
+    "model": "RB3035",
+    "brand": "Ray-Ban",
+    "price": 5000,
+    "currency": "₺",
+    "description": "İçerik detayı",
+    "category": "sunglasses",
+    "gender": "unisex",
+    "material": "acetate",
+    "image": "/images/product-01.png",
+    "images": [
+      "/uploads/1777900642982-k9tbhm.jpg",
+      "/uploads/1777900643001-wwuwj7.jpg"
+    ],
+    "featured": false,
+    "inStock": true,
+    "specs": {},
+    "createdAt": "2026-05-04T13:17:25.273Z",
+    "updatedAt": "2026-05-04T13:17:25.273Z"
+  },
+  {
+    "id": "1777901074641",
+    "name": "Osse Güneş Gözlüğü",
+    "model": "RB3036",
+    "brand": "Osse",
+    "price": 4000,
+    "currency": "₺",
+    "description": "Osse Güneş Gözlüğü Açıklama Ekranı",
+    "category": "sunglasses",
+    "gender": "unisex",
+    "material": "acetate",
+    "image": "/uploads/1777901058969-garcil.png",
+    "images": [
+      "/uploads/1777901058988-2abpev.png",
+      "/uploads/1777901102333-29tzcf.png"
+    ],
+    "featured": false,
+    "inStock": true,
+    "specs": {},
+    "createdAt": "2026-05-04T13:24:34.641Z",
+    "updatedAt": "2026-05-04T13:25:03.929Z"
+  },
+  {
+    "id": "1777901329618",
+    "name": "Rayban Numaralı gözlük",
+    "model": "RB3037",
+    "brand": "Ray-Ban",
+    "price": 3000,
+    "currency": "₺",
+    "description": "Rayban Numaralı gözlük Açıklama Alanı",
+    "category": "prescription",
+    "gender": "women",
+    "material": "acetate",
+    "image": "/uploads/1777901324854-h60hq1.avif",
+    "images": [
+      "/uploads/1777901324854-h60hq1.avif",
+      "/uploads/1777901327974-prqbgp.avif"
+    ],
+    "featured": false,
+    "inStock": true,
+    "specs": {
+      "frameWidth": "140",
+      "lensWidth": "52",
+      "bridgeWidth": "18",
+      "templeLength": "145",
+      "lensHeight": "45",
+      "weight": "25",
+      "color": "Altın"
+    },
+    "createdAt": "2026-05-04T13:28:49.619Z",
+    "updatedAt": "2026-05-04T13:45:57.825Z"
+  },
+  {
+    "id": "1777902966668",
+    "name": "Rayban Gözlük",
+    "model": "Rb3038",
+    "brand": "Ray-Ban",
+    "price": 6000,
+    "currency": "₺",
+    "description": "adadw",
+    "category": "sunglasses",
+    "gender": "unisex",
+    "material": "acetate",
+    "image": "/uploads/1777902953984-4xyzur.avif",
+    "images": [
+      "/uploads/1777902953984-4xyzur.avif",
+      "/uploads/1777902963085-2tjrqg.avif"
+    ],
+    "featured": false,
+    "inStock": true,
+    "specs": {
+      "frameWidth": "",
+      "lensWidth": "",
+      "bridgeWidth": "",
+      "templeLength": "",
+      "lensHeight": "",
+      "weight": "",
+      "color": ""
+    },
+    "createdAt": "2026-05-04T13:56:06.668Z",
+    "updatedAt": "2026-05-04T13:56:06.668Z"
+  }
+]
