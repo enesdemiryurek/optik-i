@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function MissionVisionCards() {
   return (
@@ -26,10 +27,11 @@ export default function MissionVisionCards() {
               className="w-full lg:w-[35%] relative aspect-[4/5] md:aspect-video lg:aspect-square rounded-3xl overflow-hidden shadow-[0_0_40px_rgba(212,175,55,0.15)] group"
             >
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 z-10" />
-              <img
+              <Image
                 src="/images/about-model.png"
                 alt="Cadde Optik Vizyon"
-                className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                fill
+                className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 border border-white/10 rounded-3xl z-20 pointer-events-none" />
             </motion.div>
