@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-3:I[97367,["/optik-i/_next/static/chunks/0bch~ih1uf91c.js","/optik-i/_next/static/chunks/09t2isllljna7.js","/optik-i/_next/static/chunks/005x6uu9isvse.js"],"OutletBoundary"]
+3:I[97367,["/optik-i/_next/static/chunks/0ssoi-3t6q3pp.js","/optik-i/_next/static/chunks/09t2isllljna7.js","/optik-i/_next/static/chunks/005x6uu9isvse.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":["$L2",null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ttPOLYATD-_dZnw-BGICV"}
+0:{"rsc":["$","$1","c",{"children":["$L2",null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"VrUG4NAunJUZUUZzeBCaT"}
 5:null
 2:E{"digest":"NEXT_REDIRECT;replace;/admin/login;307;"}
