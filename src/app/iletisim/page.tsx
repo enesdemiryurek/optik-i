@@ -171,7 +171,7 @@ export default function ContactPage() {
                 </div>
                 <h3 className="text-[10px] font-bold tracking-[0.2em] text-muted uppercase mb-2">MERKEZ MAĞAZA</h3>
                 <p className="text-xl font-serif text-foreground mb-4">Cadde Optik Batıkent</p>
-                <a href="https://maps.app.goo.gl/rynL919ULwXyU7w3q" target="_blank" rel="noreferrer" className="block text-muted font-light leading-relaxed mb-6 hover:text-primary transition-colors">Turgut Özel mah. Şehit Kaymakam Muhammed Fatih Safitürk Bulv. No: 102-G Çakırlar/Batıkent/ANKARA</a>
+                <a href="https://maps.app.goo.gl/rynL919ULwXyU7w3q" target="_blank" rel="noreferrer" className="block text-muted font-light leading-relaxed mb-6 hover:text-primary transition-colors">Örnek Mahallesi, Cadde Sokak No: 1, Merkez/ANKARA</a>
                 <a href="https://maps.app.goo.gl/rynL919ULwXyU7w3q" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-[11px] font-bold tracking-widest uppercase text-foreground hover:text-primary transition-colors">
                   Haritada Gör <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
                 </a>
@@ -182,11 +182,11 @@ export default function ContactPage() {
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" /></svg>
                 </div>
                 <h3 className="text-[10px] font-bold tracking-[0.2em] text-muted uppercase mb-2">İLETİŞİM HATTI</h3>
-                <a href="tel:+905468005269" className="block text-2xl font-serif text-foreground mb-2 hover:text-primary transition-colors">0546 800 52 69</a>
-                <a href="mailto:ozcandemiryurek@hotmail.com" className="block text-muted font-light hover:text-primary transition-colors">ozcandemiryurek@hotmail.com</a>
+                <a href="tel:+905555555555" className="block text-2xl font-serif text-foreground mb-2 hover:text-primary transition-colors">0555 555 55 55</a>
+                <a href="mailto:info@caddeoptik.com" className="block text-muted font-light hover:text-primary transition-colors">info@caddeoptik.com</a>
               </div>
 
-              <a href="https://wa.me/905468005269" target="_blank" rel="noreferrer" className="bg-[#2C4A3B]/5 p-6 editorial-border border-[#2C4A3B]/20 flex items-center gap-6 hover:bg-[#2C4A3B] hover:text-background group transition-all duration-300">
+              <a href="https://wa.me/905555555555" target="_blank" rel="noreferrer" className="bg-[#2C4A3B]/5 p-6 editorial-border border-[#2C4A3B]/20 flex items-center gap-6 hover:bg-[#2C4A3B] hover:text-background group transition-all duration-300">
                 <div className="w-12 h-12 bg-[#2C4A3B] editorial-border flex items-center justify-center text-white shrink-0 group-hover:bg-background group-hover:text-[#2C4A3B] transition-all">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>
                 </div>
@@ -209,7 +209,7 @@ export default function ContactPage() {
       {/* ─── MAP SECTION ─── */}
       <section className="h-[400px] w-full relative border-b border-border">
         <iframe
-          src="https://maps.google.com/maps?q=Turgut+Özel+mah.+Şehit+Kaymakam+Muhammed+Fatih+Safitürk+Bulv.+No:+102-G+Çakırlar/Batıkent/ANKARA&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          src="https://maps.google.com/maps?q=Ankara+Türkiye&t=&z=15&ie=UTF8&iwloc=&output=embed"
           width="100%" height="100%" style={{ border: 0, filter: 'grayscale(80%) sepia(20%) hue-rotate(330deg)' }}
           allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Cadde Optik Batıkent Konum"
         />

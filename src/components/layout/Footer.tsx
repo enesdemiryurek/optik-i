@@ -109,7 +109,7 @@ export default function Footer() {
                   </svg>
                 </div>
                 <a href="https://maps.app.goo.gl/rynL919ULwXyU7w3q" target="_blank" rel="noreferrer" className="text-sm text-white/60 leading-relaxed mt-1 group-hover:text-white transition-colors block">
-                  Turgut Özel mah. Şehit Kaymakam<br />Muhammed Fatih Safitürk Bulv.<br />No: 102-G Çakırlar/Batıkent/ANKARA
+                  Örnek Mahallesi, Cadde Sokak<br />No: 1, Merkez/ANKARA
                 </a>
               </div>
               <div className="flex items-center gap-4 group">
@@ -118,8 +118,8 @@ export default function Footer() {
                     <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
                   </svg>
                 </div>
-                <a href="tel:+905468005269" className="text-sm text-white/60 hover:text-[#D4AF37] transition-colors">
-                  +90 546 800 52 69
+                <a href="tel:+905555555555" className="text-sm text-white/60 hover:text-[#D4AF37] transition-colors">
+                  +90 555 555 55 55
                 </a>
               </div>
               <div className="flex items-center gap-4 group">
@@ -129,8 +129,8 @@ export default function Footer() {
                     <polyline points="22,6 12,13 2,6" />
                   </svg>
                 </div>
-                <a href="mailto:ozcandemiryurek@hotmail.com" className="text-sm text-white/60 hover:text-[#D4AF37] transition-colors">
-                  ozcandemiryurek@hotmail.com
+                <a href="mailto:info@caddeoptik.com" className="text-sm text-white/60 hover:text-[#D4AF37] transition-colors">
+                  info@caddeoptik.com
                 </a>
               </div>
             </div>

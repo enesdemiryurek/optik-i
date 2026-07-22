@@ -12,7 +12,7 @@ export default function FloatingContact() {
       </a>
       
       <a 
-        href="https://wa.me/905468005269" 
+        href="https://wa.me/905555555555" 
         target="_blank" 
         rel="noopener noreferrer"
         className="w-[60px] h-[60px] rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-xl hover:scale-110 transition-transform duration-300 relative group pointer-events-auto"
