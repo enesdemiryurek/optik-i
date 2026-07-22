@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   // Static export — hosting'e yüklemek için
   output: "export",
-  basePath: "/optik-l", // <-- CSS ve asset yollarının kaymaması için bu şart!
+  basePath: "/optik-i", // <-- CSS ve asset yollarının kaymaması için bu şart!
   trailingSlash: true,
 
   images: {
