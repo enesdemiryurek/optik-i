@@ -81,7 +81,7 @@ export default function HeroSection() {
         >
           <div className="relative w-full h-full max-h-[800px] overflow-hidden bg-muted-bg border border-border">
             <Image
-              src="/images/model-women-aydinlik.png"
+              src="/optik-i/images/model-women-aydinlik.png"
               alt="Cadde Optik Premium"
               fill
               className="object-cover object-top transition-transform duration-[2000ms] hover:scale-105 opacity-90"

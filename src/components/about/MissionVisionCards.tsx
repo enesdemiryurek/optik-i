@@ -28,7 +28,7 @@ export default function MissionVisionCards() {
             >
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500 z-10" />
               <Image
-                src="/images/about-model.png"
+                src="/optik-i/images/about-model.png"
                 alt="Cadde Optik Vizyon"
                 fill
                 className="object-cover object-center group-hover:scale-105 transition-transform duration-700"

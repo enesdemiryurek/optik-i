@@ -25,7 +25,7 @@ export default function GenderCollections() {
           {/* Women */}
           <Link href="/urunler?category=sunglasses&gender=women" className="group relative block overflow-hidden rounded-[32px] h-[520px] shadow-2xl shadow-black/5 bg-black">
             <Image
-              src="/images/model-women-aydinlik.png"
+              src="/optik-i/images/model-women-aydinlik.png"
               alt="Kadın Koleksiyonu"
               fill
               className="object-cover transition-transform duration-[1500ms] group-hover:scale-110 opacity-90 group-hover:opacity-100"
@@ -47,7 +47,7 @@ export default function GenderCollections() {
           {/* Men */}
           <Link href="/urunler?category=sunglasses&gender=men" className="group relative block overflow-hidden rounded-[32px] h-[520px] shadow-2xl shadow-black/5 bg-black">
             <Image
-              src="/images/model-men-aydinlik.png"
+              src="/optik-i/images/model-men-aydinlik.png"
               alt="Erkek Koleksiyonu"
               fill
               className="object-cover transition-transform duration-[1500ms] group-hover:scale-110 opacity-90 group-hover:opacity-100"

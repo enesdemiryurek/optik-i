@@ -10,7 +10,7 @@ const categories = [
     label: 'Güneş Gözlükleri',
     en: 'Sunglasses',
     desc: 'UV400 korumalı, polarize premium modeller',
-    image: '/images/cat-sunglasses-real.png',
+    image: '/optik-i/images/cat-sunglasses-real.png',
     href: '/urunler?category=sunglasses',
   },
   {
@@ -18,7 +18,7 @@ const categories = [
     label: 'Numaralı Gözlükler',
     en: 'Optical Frames',
     desc: 'Titanyum ve asetat reçeteli çerçeveler',
-    image: '/images/cat-prescription-real.png',
+    image: '/optik-i/images/cat-prescription-real.png',
     href: '/urunler?category=prescription',
   },
   {
@@ -26,7 +26,7 @@ const categories = [
     label: 'Kontakt Lensler',
     en: 'Contact Lenses',
     desc: 'Günlük, aylık ve renkli lens seçenekleri',
-    image: '/images/cat-lenses-real.png',
+    image: '/optik-i/images/cat-lenses-real.png',
     href: '/urunler?category=lenses',
   },
   {
@@ -34,7 +34,7 @@ const categories = [
     label: 'Aksesuarlar',
     en: 'Accessories',
     desc: 'Kılıf, bez ve bakım ürünleri',
-    image: '/images/cat-accessories-real.png',
+    image: '/optik-i/images/cat-accessories-real.png',
     href: '/urunler?category=accessories',
   },
 ];

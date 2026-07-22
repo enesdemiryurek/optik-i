@@ -146,7 +146,7 @@ export default function HomePage() {
               >
                 <div className="absolute inset-0 right-[-10vw] rounded-l-[40px] overflow-hidden group">
                   <Image 
-                    src="/images/luxury_showroom.png" 
+                    src="/optik-i/images/luxury_showroom.png" 
                     alt="Cadde Optik Lüks Showroom" 
                     fill 
                     className="object-cover transition-transform duration-[2000ms] group-hover:scale-105" 
@@ -187,7 +187,7 @@ export default function HomePage() {
               {/* Background Photo for the card */}
               <div className="absolute inset-0 w-full h-full">
                 <Image 
-                  src="/images/model-rayban-real.png" 
+                  src="/optik-i/images/model-rayban-real.png" 
                   alt="Cadde Optik Gözlük Koleksiyonu" 
                   fill 
                   className="object-cover opacity-70 mix-blend-overlay" 

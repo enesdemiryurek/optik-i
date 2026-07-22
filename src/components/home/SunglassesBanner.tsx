@@ -7,7 +7,7 @@ export default function SunglassesBanner() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/sunglasses-banner.png"
+          src="/optik-i/images/sunglasses-banner.png"
           alt="Güneş Gözlükleri Yeni Koleksiyon"
           fill
           className="object-cover"

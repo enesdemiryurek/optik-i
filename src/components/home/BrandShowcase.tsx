@@ -5,10 +5,10 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 const brands = [
-  { name: 'Ray-Ban',  image: '/images/model-rayban-real.png',  href: '/urunler?brand=Ray-Ban',  since: '1937', desc: 'İkonik ve klasik tasarım anlayışı' },
-  { name: 'Prada',   image: '/images/model-prada-real.png',   href: '/urunler?brand=Prada',    since: '1913', desc: 'İtalyan lüksü ve avangart çizgiler' },
-  { name: 'Osse',    image: '/images/model-osse-real.png',    href: '/urunler?brand=Osse',     since: '2005', desc: 'Modern ve dinamik güneş gözlükleri' },
-  { name: 'Vogue',   image: '/images/model-vogue-real.png',   href: '/urunler?brand=Vogue',    since: '1973', desc: 'Global trendleri yansıtan şıklık' },
+  { name: 'Ray-Ban',  image: '/optik-i/images/model-rayban-real.png',  href: '/urunler?brand=Ray-Ban',  since: '1937', desc: 'İkonik ve klasik tasarım anlayışı' },
+  { name: 'Prada',   image: '/optik-i/images/model-prada-real.png',   href: '/urunler?brand=Prada',    since: '1913', desc: 'İtalyan lüksü ve avangart çizgiler' },
+  { name: 'Osse',    image: '/optik-i/images/model-osse-real.png',    href: '/urunler?brand=Osse',     since: '2005', desc: 'Modern ve dinamik güneş gözlükleri' },
+  { name: 'Vogue',   image: '/optik-i/images/model-vogue-real.png',   href: '/urunler?brand=Vogue',    since: '1973', desc: 'Global trendleri yansıtan şıklık' },
 ];
 
 export default function BrandShowcase() {

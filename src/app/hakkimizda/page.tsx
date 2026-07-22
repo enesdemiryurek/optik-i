@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div className="relative w-full h-[500px] flex justify-center lg:justify-end">
              <div className="relative w-full max-w-[400px] h-full arch-shape overflow-hidden editorial-border p-2 bg-white editorial-shadow mt-auto">
                <div className="relative w-full h-full arch-shape overflow-hidden bg-muted-bg">
-                 <Image src="/images/about-hero.png" alt="Cadde Optik" fill className="object-cover grayscale-[15%] contrast-110" unoptimized />
+                 <Image src="/optik-i/images/about-hero.png" alt="Cadde Optik" fill className="object-cover grayscale-[15%] contrast-110" unoptimized />
                  <div className="absolute inset-0 bg-[#B94C36]/10 mix-blend-multiply" />
                </div>
              </div>
@@ -44,12 +44,12 @@ export default function AboutPage() {
             <div className="relative h-[600px] w-full">
               <div className="absolute top-0 left-0 w-3/4 h-[450px] editorial-border bg-background p-2 editorial-shadow">
                 <div className="relative w-full h-full overflow-hidden bg-muted-bg">
-                  <Image src="/images/about-model.png" alt="Model" fill className="object-cover" unoptimized />
+                  <Image src="/optik-i/images/about-model.png" alt="Model" fill className="object-cover" unoptimized />
                 </div>
               </div>
               <div className="absolute bottom-10 right-0 w-2/3 h-[300px] editorial-border bg-background p-2 editorial-shadow z-10">
                 <div className="relative w-full h-full overflow-hidden bg-muted-bg">
-                  <Image src="/images/banner-sunglasses-new.png" alt="Güneş Gözlüğü" fill className="object-cover" unoptimized />
+                  <Image src="/optik-i/images/banner-sunglasses-new.png" alt="Güneş Gözlüğü" fill className="object-cover" unoptimized />
                 </div>
               </div>
             </div>

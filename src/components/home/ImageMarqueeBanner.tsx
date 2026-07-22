@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const marqueeImages = [
-  '/images/model-rayban-v2.png',
-  '/images/banner-sunglasses-new.png',
-  '/images/model-vogue-v2.png',
-  '/images/banner-closeup.png',
-  '/images/model-prada-v2.png',
-  '/images/model-osse-v2.png',
+  '/optik-i/images/model-rayban-v2.png',
+  '/optik-i/images/banner-sunglasses-new.png',
+  '/optik-i/images/model-vogue-v2.png',
+  '/optik-i/images/banner-closeup.png',
+  '/optik-i/images/model-prada-v2.png',
+  '/optik-i/images/model-osse-v2.png',
 ];
 
 export default function ImageMarqueeBanner() {
