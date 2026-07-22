@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 2:"$Sreact.suspense"
-3:I[39448,["/optik-i/_next/static/chunks/0ssoi-3t6q3pp.js","/optik-i/_next/static/chunks/09t2isllljna7.js","/optik-i/_next/static/chunks/005x6uu9isvse.js","/optik-i/_next/static/chunks/09debxzal.9ki.js"],"default"]
+3:I[39448,["/optik-i/_next/static/chunks/0ssoi-3t6q3pp.js","/optik-i/_next/static/chunks/09t2isllljna7.js","/optik-i/_next/static/chunks/005x6uu9isvse.js","/optik-i/_next/static/chunks/0b-7.-nggqrn9.js"],"default"]
 4:I[97367,["/optik-i/_next/static/chunks/0ssoi-3t6q3pp.js","/optik-i/_next/static/chunks/09t2isllljna7.js","/optik-i/_next/static/chunks/005x6uu9isvse.js"],"OutletBoundary"]
-0:{"rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-screen flex items-center justify-center font-serif text-2xl","children":"Yükleniyor..."}],"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/optik-i/_next/static/chunks/09debxzal.9ki.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"VrUG4NAunJUZUUZzeBCaT"}
+0:{"rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-screen flex items-center justify-center font-serif text-2xl","children":"Yükleniyor..."}],"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/optik-i/_next/static/chunks/0b-7.-nggqrn9.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"FOfPWrOWNKJc540jzF9FX"}
 5:null
