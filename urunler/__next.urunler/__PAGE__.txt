@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
 2:"$Sreact.suspense"
-3:I[10501,["/_next/static/chunks/0bch~ih1uf91c.js","/_next/static/chunks/09t2isllljna7.js","/_next/static/chunks/005x6uu9isvse.js","/_next/static/chunks/04w9jc-~m4-dx.js"],"default"]
-4:I[97367,["/_next/static/chunks/0bch~ih1uf91c.js","/_next/static/chunks/09t2isllljna7.js","/_next/static/chunks/005x6uu9isvse.js"],"OutletBoundary"]
-0:{"rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-screen flex items-center justify-center text-muted","children":"Yükleniyor..."}],"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/_next/static/chunks/04w9jc-~m4-dx.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Dp2PxwH-6LBaaxcjzt0NG"}
+3:I[10501,["/optik-i/_next/static/chunks/0bch~ih1uf91c.js","/optik-i/_next/static/chunks/09t2isllljna7.js","/optik-i/_next/static/chunks/005x6uu9isvse.js","/optik-i/_next/static/chunks/02hu6gu2~55kx.js"],"default"]
+4:I[97367,["/optik-i/_next/static/chunks/0bch~ih1uf91c.js","/optik-i/_next/static/chunks/09t2isllljna7.js","/optik-i/_next/static/chunks/005x6uu9isvse.js"],"OutletBoundary"]
+0:{"rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"className":"min-h-screen flex items-center justify-center text-muted","children":"Yükleniyor..."}],"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/optik-i/_next/static/chunks/02hu6gu2~55kx.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"mL3nHSat2tYnDWc3SABAX"}
 5:null
