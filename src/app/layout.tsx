@@ -6,12 +6,12 @@ import Footer from "@/components/layout/Footer";
 import FloatingContact from "@/components/layout/FloatingContact";
 
 export const metadata: Metadata = {
-  title: "Cadde Optik | Ankara Batıkent Çakırlar Gözlükçü & Optikçi - Lens",
-  description: "Ankara Batıkent Çakırlar'ın en iyi gözlükçü ve optik mağazası Cadde Optik. Dünyaca ünlü güneş gözlükleri, numaralı gözlükler ve lens çeşitleri en uygun fiyatlarla.",
-  keywords: "cadde optik, ankara gözlükçü, batıkent gözlükçü, çakırlar gözlükçü, ankara optik, batıkent optikçi, çakırlar optikçi, ankara batıkent çakırlar optik, gözlükçü, güneş gözlükleri, lens ankara, numaralı gözlük ankara, çakırlar gözlük, batıkent lens",
+  title: "Cadde Optik",
+  description: "Cadde Optik. Dünyaca ünlü güneş gözlükleri, numaralı gözlükler ve lens çeşitleri en uygun fiyatlarla.",
+  keywords: "cadde optik, gözlükçü, güneş gözlükleri, lens, numaralı gözlük",
   openGraph: {
-    title: "Cadde Optik | Ankara Batıkent Çakırlar Gözlükçü",
-    description: "Ankara Batıkent Çakırlar'ın en iyi gözlükçü ve optik mağazası Cadde Optik. Dünyaca ünlü güneş gözlükleri, numaralı gözlükler ve lens çeşitleri en uygun fiyatlarla.",
+    title: "Cadde Optik",
+    description: "Cadde Optik. Dünyaca ünlü güneş gözlükleri, numaralı gözlükler ve lens çeşitleri en uygun fiyatlarla.",
     url: 'https://caddeoptik.com',
     siteName: 'Cadde Optik',
     locale: 'tr_TR',

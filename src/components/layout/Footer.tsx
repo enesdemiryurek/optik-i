@@ -29,7 +29,7 @@ export default function Footer() {
               CADDE OPTİK
             </Link>
             <p className="text-[15px] text-white/60 leading-relaxed max-w-sm font-light mb-10">
-              Ankara Batıkent Çakırlar'ın en iyi gözlükçü ve optik mağazası olarak mükemmel görüşün ve kusursuz tasarımın buluşma noktasıyız. Dünyaca ünlü lüks güneş gözlükleri ve numaralı optik çözümlerini üstün hizmet anlayışıyla sunuyoruz.
+              Mükemmel görüşün ve kusursuz tasarımın buluşma noktasıyız. Dünyaca ünlü lüks güneş gözlükleri ve numaralı optik çözümlerini üstün hizmet anlayışıyla sunuyoruz.
             </p>
             
             {/* Social Icons */}
